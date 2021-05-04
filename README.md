@@ -1,4 +1,4 @@
-# Mia Codes Gatsby Portfolio Site
+# Mia Codes Gatsby Portfolio Site 5/4/21
 
 <hr>
 
@@ -10,7 +10,7 @@ For complete list of the new V3 changes please visit https://www.gatsbyjs.com/do
 
 <hr>
 
- <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
+ ![Main View](https://github.com/miadugas/miadugas/blob/master/Mia_cover.png)
 
 ## Technology Used
 ReactJS, GatsbyJS, Strapi Headless CMS

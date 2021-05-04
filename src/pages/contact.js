@@ -4,7 +4,7 @@ import Seo from "../components/Seo"
 const contact = () => {
   return (
     <>
-      {/* <SEO title="Contact" /> */}
+      <Seo title="Contact" />
       <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>
