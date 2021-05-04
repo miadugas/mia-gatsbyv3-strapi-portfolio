@@ -31,10 +31,9 @@
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
-        contentTypes: [`job`],
-        // contentTypes: [`job`, `project`],
+        contentTypes: [`job`, `project`],
         //If using single types place them in this array.
-        // singleTypes: [`about`],
+        singleTypes: [`about`],
         // Possibility to login with a strapi user, when content types are not publically available (optional).
       },
     },

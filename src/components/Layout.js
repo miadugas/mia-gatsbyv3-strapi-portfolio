@@ -1,18 +1,23 @@
-import React from "react"
+import React, { useState } from "react"
 import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
 import Footer from "./Footer"
 
 import "../assets/css/main.css"
 const Layout = ({ children }) => {
-  return (  
-  <>
-  <Navbar 
-  // toggleSidebar={toggleSidebar}
+  const [isOpen, setIsOpen] = useState(false)
 
-  />
-  {children}
-</>
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen)
+  }
+
+  return (
+    <>
+      <Navbar toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+      {children}
+      <Footer />
+    </>
   )
 }
 

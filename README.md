@@ -3,7 +3,7 @@
 <hr>
 
 ## Description
-My portfolio required refactoring after the latest Gatsby update; and by required I mean required so I can absorb the changes :D
+My portfolio required refactoring after the latest Gatsby update; and by "required" I mean required so I can absorb the changes from version 2 to version 3 :D
 
 For complete list of the new V3 changes please visit https://www.gatsbyjs.com/docs/reference/release-notes/v3.0/#v30-march-2021-1 
 
