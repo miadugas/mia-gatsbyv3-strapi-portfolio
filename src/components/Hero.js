@@ -14,9 +14,14 @@ const Hero = () => {
             <h1>i'm Mia</h1>
             <h4>A Northern Colorado Full Stack Developer</h4>
             <h4>And I make awesome</h4>
-            <Link to="/contact" className="btn">
+            <Link to="/contact" className="btn btn2">
               contact me
             </Link>
+          
+            <Link href="https://drive.google.com/uc?export=download&id=12Q8uIxWq9c604Dqnxh9xX0z_6UvoqEDw" className="btn btn2">
+              resume /  cv
+            </Link>
+            
             <div className="social-links">
               {socialLinks.map(link => {
                 return (

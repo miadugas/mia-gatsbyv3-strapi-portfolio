@@ -4,12 +4,12 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
- module.exports = {
+module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Mia Dugas' Portfolio`,
     description: `An Awesome WebDev Portfolio built with Gatsby and Strapi`,
-    titleTemplate: `%s | WebDev Portfolio`,
+    titleTemplate: `%s | Mia Dugas' Portfolio`,
     url: `https://temp-strapi-portfolio.netlify.app`,
     twitterUsername: `@miacodes`,
     image: `/mainImg.png`,

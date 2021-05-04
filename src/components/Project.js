@@ -33,15 +33,22 @@ const Project = ({
           })}
         </div>
         <div className="project-links">
-          <a href={github}>
-            <FaGithubSquare className="project-icon"></FaGithubSquare>
+        <Link href={github} className="btn btn2">
+              github
+            </Link>
+            <Link href={url} className="btn btn2">
+              live site
+            </Link>
+            
+          {/* <a href={github}>
+            <FaGithubSquare className="project-icon btn btn2"></FaGithubSquare>
           </a>
           <a href={url}>
             <FaShareSquare className="project-icon"></FaShareSquare>
           </a>
           <a href={download}>
             <FaShareSquare className="project-icon"></FaShareSquare>
-          </a>
+          </a> */}
         </div>
       </div>
     </article>

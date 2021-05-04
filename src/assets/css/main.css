@@ -168,7 +168,7 @@ p {
     width: 95vw;
   }
 }
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -581,7 +581,7 @@ Jobs
 }
 .btn2 {
   text-align: center;
-  padding: 25px;
+  margin: 10px;
 }
 .btn-a{
   margin: 25px;
